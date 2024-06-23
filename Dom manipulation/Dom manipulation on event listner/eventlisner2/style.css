@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b3c32;
+}
+
+.container {
+    text-align: center;
+}
+
+.reveal-btn-boxes {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hidden-content {
+    display: none;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.hidden-content.visible {
+    display: block;
+}
