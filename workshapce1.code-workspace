@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "todo list"
+		},
+		{
+			"path": "Dom manipulation"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "todo list"
+	}
+}
